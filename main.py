@@ -17,3 +17,10 @@ while True:
         
     print('User choice is:', choice_name)
     print("Now it's Computer's Turn...")
+    ai.choice = random.randint(1, 3)
+    if ai.choice == 1:
+        ai.choice = 'Rock'
+    elif ai.choice == 2:
+        ai.choice = 'Paper'
+    else:
+        ai.choice = 'Scissors'
