@@ -6,6 +6,11 @@ print('Winning rules of the game ROCK PAPER SCISSORS are:\n'
 while True:
 
     print("Enter your choice \n 1 - Rock \n 2 - Paper \n 3 - Scissors \n")
-
-    
     choice = int(input("Enter your choice: "))
+    
+    if choice == 1:
+        choice_name = 'Rock'
+    elif choice == 2:
+        choice_name = 'Paper'
+    else:
+        choice_name = 'Scissors'
